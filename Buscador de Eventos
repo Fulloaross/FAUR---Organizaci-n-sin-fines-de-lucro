@@ -1,0 +1,11 @@
+<h1>Buscador de Eventos</h1>
+
+<form action="buscador.php" method="post">
+
+  <label for="busqueda">Eventos:</label>
+
+  <input type="text" name="busqueda" id="busqueda" required>
+
+  <button type="submit" name="accion" value="buscar">Buscar</button>
+
+</form>
