@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Donaciones</title>
+</head>
+<body>
+    <h1>Donaciones</h1>
+    <form action="carrito_donaciones.php" method="post">
+        <label for="campaña">Nombre de la campaña:</label><br>
+        <input type="text" id="campaña" name="campaña" required><br><br>
+        <label for="monto">Monto a donar (número entero):</label><br>
+        <input type="number" id="monto" name="monto" min="1" step="1" required><br><br>
+        <button type="submit">Agregar donación</button>
+    </form>
+</body>
+</html>
